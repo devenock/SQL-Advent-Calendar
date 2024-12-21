@@ -1,19 +1,17 @@
 ## Today's Question:
 
-A ski resort company want to know which customers 
-rented ski equipment for more than one type of activity 
-(e.g., skiing and snowboarding). List the customer names and 
-the number of distinct activities they rented equipment for.
+You are managing inventory in Santa's workshop. Which gifts are meant 
+for "good" recipients? List the gift name and its weight.
 
-### Table name: rentals
+### Table name: gifts
 
-| rental_id | customer_name    | activity     |rental_date
-|-----------|------------------|--------------|----------|
-| 1         | Michael          | Snowboarding |2024-01-02
-| 2         | Emily            | Snowboarding |2024-01-02
-| 3         | Sarah            | Skiing       |2024-01-02
-| 4         | Michael          | Skiing       |2024-01-02
-| 5         | Michael          | Snowtubing   |2024-01-02
+| gift_id   | gift_name      | recipient_type | weight_kg  |
+|-----------|----------------|----------------|------------|
+| 1         | Toy Train      | good           | 2.5        |
+| 2         | Lumps of Coal  | naughty        | 1.5        |
+| 3         | Teddy Bear     | good           | 1.2        |
+| 4         | Chocolate Bar  | good           | 0.3        |
+| 5         | Board Game     | naughty        | 1.8        |
 
 
-Question level of difficulty:Medium
+Question level of difficulty:Easy
