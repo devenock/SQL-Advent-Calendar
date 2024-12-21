@@ -1,19 +1,32 @@
 ## Today's Question:
 
-A ski resort company want to know which customers 
-rented ski equipment for more than one type of activity 
-(e.g., skiing and snowboarding). List the customer names and 
-the number of distinct activities they rented equipment for.
+A travel agency is promoting activities for a "Summer Christmas" party. 
+They want to identify the top 2 activities based on the average rating. 
+Write a query to rank the activities by average rating.
 
-### Table name: rentals
+### Table name: activities
 
-| rental_id | customer_name    | activity     |rental_date
-|-----------|------------------|--------------|----------|
-| 1         | Michael          | Snowboarding |2024-01-02
-| 2         | Emily            | Snowboarding |2024-01-02
-| 3         | Sarah            | Skiing       |2024-01-02
-| 4         | Michael          | Skiing       |2024-01-02
-| 5         | Michael          | Snowtubing   |2024-01-02
+| activity_id | customer_name      |
+|-------------|--------------------|
+| 1           | Surfing Lessons    | 
+| 2           | Jet Skiing         | 
+| 3           | Sunset Yoga        | 
 
+### Table name: activity_ratings
 
-Question level of difficulty:Medium
+| rating_id | activity_id | rating |
+|-----------|-------------|--------|
+| 1         | 1           | 4.7    |
+| 2         | 1           | 4.8    |
+| 3         | 1           | 4.9    |
+| 4         | 2           | 4.6    |
+| 5         | 2           | 4.7    |
+| 6         | 2           | 4.8    |
+| 7         | 2           | 4.9    |
+| 8         | 3           | 4.8    |
+| 9         | 3           | 4.7    |
+| 10        | 3           | 4.9    |
+| 11        | 3           | 4.8    |
+| 12        | 3           | 4.9    |
+
+Question level of difficulty:Hard
