@@ -1,19 +1,27 @@
 ## Today's Question:
 
-A ski resort company want to know which customers 
-rented ski equipment for more than one type of activity 
-(e.g., skiing and snowboarding). List the customer names and 
-the number of distinct activities they rented equipment for.
+A community is hosting a series of festive feasts, and they want to 
+ensure a balanced menu. Write a query to identify the top 3 most calorie-dense dishes 
+(calories per gram) served for each event. 
+Include the dish_name, event_name, and the calculated calorie density in your results.
 
-### Table name: rentals
+### Table name: events
 
-| rental_id | customer_name    | activity     |rental_date
-|-----------|------------------|--------------|----------|
-| 1         | Michael          | Snowboarding |2024-01-02
-| 2         | Emily            | Snowboarding |2024-01-02
-| 3         | Sarah            | Skiing       |2024-01-02
-| 4         | Michael          | Skiing       |2024-01-02
-| 5         | Michael          | Snowtubing   |2024-01-02
+| event_id  | event_name              | 
+|-----------|-------------------------|
+| 1         | Christmas Eve Dinner    | 
+| 2         | New Years Feast         | 
+| 3         | Winter Solstice Potluck | 
+
+### Table name: menu
+
+| dish_id | dish_name                 | event_id | calories | weight_g  |
+|---------|---------------------------|----------|----------|-----------|
+| 1       | Roast Turkey              | 1        | 3500     | 5000      |
+| 2       | Chocolate Yule Log        | 1        | 2200     | 1000      |
+| 3       | Cheese Fondue             | 2        | 1500     | 800       |
+| 4       | Holiday Fruitcake         | 3        | 4000     | 1200      |
+| 5       | Honey Glazed Ham          | 2        | 2800     | 3500      |
 
 
-Question level of difficulty:Medium
+Question level of difficulty:Hard
