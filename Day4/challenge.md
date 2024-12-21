@@ -1,19 +1,26 @@
 ## Today's Question:
 
-A ski resort company want to know which customers 
-rented ski equipment for more than one type of activity 
-(e.g., skiing and snowboarding). List the customer names and 
-the number of distinct activities they rented equipment for.
+You’re planning your next ski vacation and want to find the best regions 
+with heavy snowfall. Given the tables resorts and snowfall, find the average 
+snowfall for each region and sort the regions in descending order of average snowfall. 
+Return the columns region and average_snowfall.
 
-### Table name: rentals
+### Table name: ski_resorts
 
-| rental_id | customer_name    | activity     |rental_date
-|-----------|------------------|--------------|----------|
-| 1         | Michael          | Snowboarding |2024-01-02
-| 2         | Emily            | Snowboarding |2024-01-02
-| 3         | Sarah            | Skiing       |2024-01-02
-| 4         | Michael          | Skiing       |2024-01-02
-| 5         | Michael          | Snowtubing   |2024-01-02
+| resort_id | resort_name       | region          |
+|-----------|-------------------|-----------------|
+| 1         | Snowy Peaks       | Rocky Mountains |
+| 2         | Winter Wonderland | Wasatch Range   |
+| 3         | Frozen Slopes     | Alaska Range    |
+| 4         | Powder Paradise   | Rocky Mountains |
 
+### Table name: snowfall
+
+| resort_id | snowfall_inches | 
+|-----------|-----------------|
+| 1         | 60              | 
+| 2         | 45              | 
+| 3         | 75              | 
+| 4         | 55              | 
 
 Question level of difficulty:Medium
