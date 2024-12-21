@@ -7,13 +7,13 @@ the number of distinct activities they rented equipment for.
 
 ### Table name: rentals
 
-| rental_id | customer_name    | activity     |rental_date
-|-----------|------------------|--------------|----------|
-| 1         | Michael          | Snowboarding |2024-01-02
-| 2         | Emily            | Snowboarding |2024-01-02
-| 3         | Sarah            | Skiing       |2024-01-02
-| 4         | Michael          | Skiing       |2024-01-02
-| 5         | Michael          | Snowtubing   |2024-01-02
+| rental_id | customer_name    | activity     | rental_date |
+|-----------|------------------|--------------|-------------|
+| 1         | Michael          | Snowboarding | 2024-01-02  |
+| 2         | Emily            | Snowboarding | 2024-01-02  |
+| 3         | Sarah            | Skiing       | 2024-01-02  |
+| 4         | Michael          | Skiing       | 2024-01-02  |
+| 5         | Michael          | Snowtubing   | 2024-01-02  |
 
 
 Question level of difficulty:Medium
