@@ -5,15 +5,15 @@ rented ski equipment for more than one type of activity
 (e.g., skiing and snowboarding). List the customer names and 
 the number of distinct activities they rented equipment for.
 
-### Table name: rentals
+### Table name: grinch_pranks
 
-| rental_id | customer_name    | activity     |rental_date
-|-----------|------------------|--------------|----------|
-| 1         | Michael          | Snowboarding |2024-01-02
-| 2         | Emily            | Snowboarding |2024-01-02
-| 3         | Sarah            | Skiing       |2024-01-02
-| 4         | Michael          | Skiing       |2024-01-02
-| 5         | Michael          | Snowtubing   |2024-01-02
+| prank_id   | prank_name            | location             | difficulty |
+|------------|-----------------------|----------------------|------------|
+| 1          | Stealing Stockings    | Whoville             | Beginner   |
+| 2          | Christmas Tree Topple | Whoville Town Square | Advanced   |
+| 3          | Present Swap          | Cindy Lous House     | Beginner   |
+| 4          | Sleigh Sabotage       | Mount Crumpit        | Expert     |
+| 5          | Chimney Block         | Mayors Mansion       | Expert     |
 
 
-Question level of difficulty:Medium
+Question level of difficulty:Easy
