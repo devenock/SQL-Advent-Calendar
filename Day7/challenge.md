@@ -1,19 +1,27 @@
 ## Today's Question:
 
-A ski resort company want to know which customers 
-rented ski equipment for more than one type of activity 
-(e.g., skiing and snowboarding). List the customer names and 
-the number of distinct activities they rented equipment for.
+The owner of a winter market wants to know which vendors have generated the 
+highest revenue overall. For each vendor, calculate the total revenue for all 
+their items and return a list of the top 2 vendors by total revenue. 
+Include the vendor_name and total_revenue in your results.
 
-### Table name: rentals
+### Table name: vendors
 
-| rental_id | customer_name    | activity     |rental_date
-|-----------|------------------|--------------|----------|
-| 1         | Michael          | Snowboarding |2024-01-02
-| 2         | Emily            | Snowboarding |2024-01-02
-| 3         | Sarah            | Skiing       |2024-01-02
-| 4         | Michael          | Skiing       |2024-01-02
-| 5         | Michael          | Snowtubing   |2024-01-02
+| vendor_id | vendor_name      | market_location |
+|-----------|------------------|-----------------|
+| 1         | Cozy Crafts      | Downtown Square |
+| 2         | Sweet Treats     | Central Park    |
+| 3         | Winter Warmers   | Downtown Square |
+
+### Table name: sales
+
+| sale_id | vendor_id | item_name          | quantity_sold | price_per_unit  |
+|---------|-----------|--------------------|---------------|-----------------|
+| 1       | 1         | Knitted Scarf      | 15            | 25              |
+| 2       | 2         | Hot Chocolate      | 50            | 3.5             |
+| 3       | 3         | Wool Hat           | 15            | 18              |
+| 4       | 1         | Handmade Ornament  | 10            | 15              |
+| 5       | 2         | Gingerbread Cookie | 30            | 5               |
 
 
 Question level of difficulty:Medium
