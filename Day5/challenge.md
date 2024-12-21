@@ -1,19 +1,17 @@
 ## Today's Question:
 
-A ski resort company want to know which customers 
-rented ski equipment for more than one type of activity 
-(e.g., skiing and snowboarding). List the customer names and 
-the number of distinct activities they rented equipment for.
+This year, we're celebrating Christmas in the Southern Hemisphere! 
+Which beaches are expected to have temperatures above 30°C on 
+Christmas Day?
 
-### Table name: rentals
+### Table name: beach_temperature_predictions
 
-| rental_id | customer_name    | activity     |rental_date
-|-----------|------------------|--------------|----------|
-| 1         | Michael          | Snowboarding |2024-01-02
-| 2         | Emily            | Snowboarding |2024-01-02
-| 3         | Sarah            | Skiing       |2024-01-02
-| 4         | Michael          | Skiing       |2024-01-02
-| 5         | Michael          | Snowtubing   |2024-01-02
+| beach_name       | country       | expected_temperature_c | date       |
+|------------------|---------------|------------------------|------------|
+| Bondi Beach      | Australia     | 32                     | 2024-12-24 |
+| Copacabana Beach | Brazil        | 28                     | 2024-12-24 |
+| Clifton Beach    | Souch Africa  | 31                     | 2024-12-25 |
+| Brighton Beach   | New Zealand   | 25                     | 2024-12-25 |
 
 
-Question level of difficulty:Medium
+Question level of difficulty:Easy
