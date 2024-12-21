@@ -1,19 +1,21 @@
 ## Today's Question:
 
-A ski resort company want to know which customers 
-rented ski equipment for more than one type of activity 
-(e.g., skiing and snowboarding). List the customer names and 
-the number of distinct activities they rented equipment for.
+As the owner of a candy store, you want to understand which of your 
+products are selling best. Write a query to calculate the total 
+revenue generated from each candy category.
 
-### Table name: rentals
+### Table name: candy_sales
 
-| rental_id | customer_name    | activity     |rental_date
-|-----------|------------------|--------------|----------|
-| 1         | Michael          | Snowboarding |2024-01-02
-| 2         | Emily            | Snowboarding |2024-01-02
-| 3         | Sarah            | Skiing       |2024-01-02
-| 4         | Michael          | Skiing       |2024-01-02
-| 5         | Michael          | Snowtubing   |2024-01-02
+| sale_id | candy_name             | quantity_sold | price_per_unit | category  |
+|---------|------------------------|---------------|----------------|-----------|
+| 1       | Candy Cane             | 20            | 1.5            | Sweets    |
+| 2       | Chocolate Bar          | 10            | 2              | Chocolate |
+| 3       | Lollipop               | 5             | 0.75           | Sweets    |
+| 4       | Dark Chocolate Truffle | 8             | 2.5            | Chocolate |
+| 5       | Gummy Bears            | 15            | 1.2            | Sweets    |
+| 6       | Chocolate Fudge        | 12            | 3              | Chocolate |
+
+
 
 
 Question level of difficulty:Medium
