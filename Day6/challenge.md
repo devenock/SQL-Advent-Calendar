@@ -1,19 +1,33 @@
 ## Today's Question:
 
-A ski resort company want to know which customers 
-rented ski equipment for more than one type of activity 
-(e.g., skiing and snowboarding). List the customer names and 
-the number of distinct activities they rented equipment for.
+Scientists are tracking polar bears across the Arctic to monitor 
+their migration patterns and caloric intake. Write a query to find the 
+top 3 polar bears that have traveled the longest total distance in 
+December 2024. Include their bear_id, bear_name, and total_distance_traveled 
+in the results.
 
-### Table name: rentals
+### Table name: polar_bears
 
-| rental_id | customer_name    | activity     |rental_date
-|-----------|------------------|--------------|----------|
-| 1         | Michael          | Snowboarding |2024-01-02
-| 2         | Emily            | Snowboarding |2024-01-02
-| 3         | Sarah            | Skiing       |2024-01-02
-| 4         | Michael          | Skiing       |2024-01-02
-| 5         | Michael          | Snowtubing   |2024-01-02
+| bear_id   | bear_name        | age |
+|-----------|------------------|-----|
+| 1         | Snowball         | 10  |
+| 2         | Frosty           | 7   |
+| 3         | Iceberg          | 15  |
+| 4         | Chilly           | 5   |
 
 
-Question level of difficulty:Medium
+### Table name: tracking
+
+| tracking_id | bear_id | distance_km | date        |
+|-------------|---------|-------------|-------------|
+| 1           | 1       | 25          | 2024-12-01  |
+| 2           | 2       | 40          | 2024-12-02  |
+| 3           | 1       | 30          | 2024-12-03  |
+| 4           | 3       | 50          | 2024-12-04  |
+| 5           | 2       | 35          | 2024-12-05  |
+| 6           | 4       | 20          | 2024-12-06  |
+| 7           | 3       | 55          | 2024-12-07  | 
+| 8           | 1       | 45          | 2024-12-08  |
+
+
+Question level of difficulty:Hard
