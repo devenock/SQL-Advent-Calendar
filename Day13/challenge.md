@@ -1,19 +1,16 @@
 ## Today's Question:
 
-A ski resort company want to know which customers 
-rented ski equipment for more than one type of activity 
-(e.g., skiing and snowboarding). List the customer names and 
-the number of distinct activities they rented equipment for.
+We need to make sure Santa's sleigh is properly balanced. 
+Find the total weight of gifts for each recipient.
 
-### Table name: rentals
+### Table name: gifts
 
-| rental_id | customer_name    | activity     |rental_date
-|-----------|------------------|--------------|----------|
-| 1         | Michael          | Snowboarding |2024-01-02
-| 2         | Emily            | Snowboarding |2024-01-02
-| 3         | Sarah            | Skiing       |2024-01-02
-| 4         | Michael          | Skiing       |2024-01-02
-| 5         | Michael          | Snowtubing   |2024-01-02
+| gift_id   | gift_name      | recipient     | weight_kg |
+|-----------|----------------|---------------|-----------|
+| 1         | Toy Train      | John          | 2.5       |
+| 2         | Chocolate Box  | Alice         | 0.8       |
+| 3         | Teddy Bear     | Sophia        | 1.2       |
+| 4         | Board Game     | John          | 0.9       |
 
 
 Question level of difficulty:Medium
