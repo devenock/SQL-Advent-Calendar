@@ -1,19 +1,28 @@
 ## Today's Question:
 
-A ski resort company want to know which customers 
-rented ski equipment for more than one type of activity 
-(e.g., skiing and snowboarding). List the customer names and 
-the number of distinct activities they rented equipment for.
+Scientists are studying the diets of polar bears. Write a query to find the 
+maximum amount of food (in kilograms) consumed by each polar bear in a single 
+meal December 2024. Include the bear_name and biggest_meal_kg, and sort the 
+results in descending order of largest meal consumed.
 
-### Table name: rentals
+### Table name: polar_bears
 
-| rental_id | customer_name    | activity     |rental_date
-|-----------|------------------|--------------|----------|
-| 1         | Michael          | Snowboarding |2024-01-02
-| 2         | Emily            | Snowboarding |2024-01-02
-| 3         | Sarah            | Skiing       |2024-01-02
-| 4         | Michael          | Skiing       |2024-01-02
-| 5         | Michael          | Snowtubing   |2024-01-02
+| bear_id   | bear_name       | age |
+|-----------|-----------------|-----|
+| 1         | Snowball        | 10  |
+| 2         | Frosty          | 7   |
+| 3         | Iceberg         | 15  |
 
+
+### Table name: meal_log
+
+| log_id | bear_id | food_type | food_weight_kg | date       |
+|--------|---------|-----------|----------------|------------|
+| 1      | 1       | Seal      | 30             | 2024-12-01 |
+| 2      | 2       | Fish      | 15             | 2024-12-02 |
+| 3      | 1       | Fish      | 10             | 2024-12-03 |
+| 4      | 3       | Seal      | 25             | 2024-12-04 |
+| 5      | 2       | Seal      | 20             | 2024-12-05 |
+| 6      | 3       | Fish      | 18             | 2024-12-06 |
 
 Question level of difficulty:Medium
