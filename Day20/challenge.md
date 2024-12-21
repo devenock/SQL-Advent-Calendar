@@ -1,19 +1,26 @@
 ## Today's Question:
 
-A ski resort company want to know which customers 
-rented ski equipment for more than one type of activity 
-(e.g., skiing and snowboarding). List the customer names and 
-the number of distinct activities they rented equipment for.
+We are looking for cheap gifts at the market. Which vendors are 
+selling items priced below $10? List the unique (i.e. remove duplicates) vendor names.
 
-### Table name: rentals
+### Table name: vendors
 
-| rental_id | customer_name    | activity     |rental_date
-|-----------|------------------|--------------|----------|
-| 1         | Michael          | Snowboarding |2024-01-02
-| 2         | Emily            | Snowboarding |2024-01-02
-| 3         | Sarah            | Skiing       |2024-01-02
-| 4         | Michael          | Skiing       |2024-01-02
-| 5         | Michael          | Snowtubing   |2024-01-02
+| vendor_id | vendor_name      | market_location |
+|-----------|------------------|-----------------|
+| 1         | Cozy Crafts      | Downtown Square |
+| 2         | Sweet Treats     | Central Park    |
+| 3         | Winter Warmers   | Downtown Square |
 
 
-Question level of difficulty:Medium
+### Table name: item_prices
+
+| item_id   | vendor_id | item_name          | price_usd |
+|-----------|-----------|--------------------|-----------|
+| 1         | 1         | Knitted Scarf      | 25        |
+| 1         | 2         | Hot Chocolate      | 5         |
+| 1         | 2         | Gingerbread Cookie | 3.5       |
+| 1         | 3         | Wool Hat           | 18        |
+| 1         | 3         | Knitted Scarf      | 2         |
+
+
+Question level of difficulty:Easy
