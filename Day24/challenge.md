@@ -1,19 +1,19 @@
 ## Today's Question:
 
-A ski resort company want to know which customers 
-rented ski equipment for more than one type of activity 
-(e.g., skiing and snowboarding). List the customer names and 
-the number of distinct activities they rented equipment for.
+Santa is tracking how many presents he delivers each night leading up 
+to Christmas. He wants a running total to see how many gifts have been 
+delivered so far on any given night. Using the deliveries table, calculate 
+the cumulative sum of gifts delivered, ordered by the delivery date.
 
-### Table name: rentals
+### Table name: deliveries
 
-| rental_id | customer_name    | activity     |rental_date
-|-----------|------------------|--------------|----------|
-| 1         | Michael          | Snowboarding |2024-01-02
-| 2         | Emily            | Snowboarding |2024-01-02
-| 3         | Sarah            | Skiing       |2024-01-02
-| 4         | Michael          | Skiing       |2024-01-02
-| 5         | Michael          | Snowtubing   |2024-01-02
+| delivery_date | gifts_delivered | 
+|---------------|-----------------|
+| 2024-12-20    | 120             | 
+| 2024-12-21    | 150             | 
+| 2024-12-22    | 200             | 
+| 2024-12-23    | 300             | 
+| 2024-12-24    | 500             | 
 
 
-Question level of difficulty:Medium
+Question level of difficulty:Hard
