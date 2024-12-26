@@ -1,9 +1,7 @@
 ## Today's Question:
-
-A ski resort company want to know which customers 
-rented ski equipment for more than one type of activity 
-(e.g., skiing and snowboarding). List the customer names and 
-the number of distinct activities they rented equipment for.
+We are hosting a gift party and need to ensure every guest receives a gift. 
+Using the guests and guest_gifts tables, write a query to identify the guest(s) 
+who have not been assigned a gift (i.e. they are not listed in the guest_gifts table).
 
 ### Table name: guests
 
